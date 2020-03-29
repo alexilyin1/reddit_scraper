@@ -18,4 +18,4 @@ Initially, I hoped to create both an exploratory and a predictive aspect of the 
 
 The first task was checking out the different distribution of words by their frequency within posts to right leaning, left leaning and so called neutral subreddits. This was completed by first removing stopwords using the NLTK package (additions were made to the default stopwords set after intial visualizations). While most, if not all, sentences in the English language contain some amount of stop words, they are not important in an analysis of a political discussion. After removing stopwords, a simple wordcount revealed the following distributions:
 
-![alt_text](images/n_title_wc.PNG) ![alt_text](images/r_title_wc.PNG)
+![alt_text](images/n_title_wc.PNG "Neutral Titles") ![alt_text](images/r_title_wc.PNG "Right Titles") ![alt_text](images/l_title.wc.PNG "Left Titles")
